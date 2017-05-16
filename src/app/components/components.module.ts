@@ -1,16 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MdCardModule } from '@angular/material';
+import {
+  MdCardModule,
+  MdGridListModule
+} from '@angular/material';
 
 import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    MdCardModule
+    MdCardModule,
+    MdGridListModule
   ],
   exports: [
     MdCardModule,
+    MdGridListModule,
     HeaderComponent
   ],
   declarations: [
