@@ -1,7 +1,15 @@
-$bb-header-height: 54px;
+$bb-header-height: 60px;
 
 header {
   display: flex;
 
   height: $bb-header-height;
+}
+
+.logo {
+  width: 100%;
+  height: $bb-header-height;
+
+  background: url(/assets/images/briebug-logo-full.png) no-repeat;
+  background-size: contain;
 }
