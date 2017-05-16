@@ -2,4 +2,6 @@ $bb-header-height: 54px;
 
 header {
   display: flex;
+
+  height: $bb-header-height;
 }

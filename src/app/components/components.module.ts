@@ -1,11 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MdCardModule } from '@angular/material';
+
 import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    MdCardModule
   ],
-  declarations: [HeaderComponent]
+  exports: [
+    MdCardModule,
+    HeaderComponent
+  ],
+  declarations: [
+    HeaderComponent
+  ]
 })
 export class ComponentsModule { }
